@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+"""Echo server using the asyncio API."""
+
 import asyncio
 
 from websockets.asyncio.server import serve
